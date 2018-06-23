@@ -1,7 +1,7 @@
 import random
 import time
 
-def gwat():
+def gwats():
     attempts = 5
     win = False
     computer_choice = random.randint(1,100)
@@ -33,7 +33,7 @@ def gwat():
 def try_again():
     user_choice = input("Do you want to continue:y/n")
     if user_choice == "y":
-        gwat()
+        gwats()
     else:
         print("Thanks for playing.")
         time.sleep(5)
